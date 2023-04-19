@@ -1,0 +1,42 @@
+h2{
+	text-align: center;
+	padding: 20px;
+	background: #4654A1;
+    color: white;
+}
+.containerreizen img{
+	width: 100%;
+	padding: 35px;
+}
+h5,h6,.containerreizen p{
+	text-align: center;
+	
+}
+.col-lg-4{
+	padding: 50px 0px 70px 0px;; 
+}
+.row{
+	padding: 0px 40px 0px 40px;
+}
+.containerreizen p{
+	padding: 0px 40px 0px 40px;
+}
+
+.containerreizen button{
+	background: #4654A1;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+.containerreizen button:hover{
+	background: white;
+	color: black;
+	border: 1px solid #4654A1;
+}
+.banner {
+	background: rgb(70,84,161);
+  }
+

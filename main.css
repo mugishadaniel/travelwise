@@ -1,0 +1,71 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+	background: #fff;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #000;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.page-footer {
+	background: #4654A1;
+	color: #fff;
+	padding: 2em 0;
+}
+
+.footertitel {
+	padding-bottom: 20px;
+}
+
+.consult {
+	background-color: #4654A1;
+	color: white;
+	text-decoration: underline;
+}
+
+.footercopyright {
+	color: #4654A1;
+	background-color: white;
+	text-align: center;
+}
+
+.socials {
+	color: white;
+	padding-top: 20px;
+	font-size: large;
+}
+
+.fa-facebook-f:before,
+.fa-instagram::before,
+.fa-twitter::before {
+	color: white;
+	padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+	.page-footer{
+		text-align: center;
+	}
+}
+

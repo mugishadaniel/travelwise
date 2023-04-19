@@ -1,0 +1,39 @@
+.banner {
+	background: rgb(70,84,161);
+  }
+  .row{
+	padding: 0px 40px 0px 40px;
+}
+form{
+	display: flex;
+	padding: 50px;
+	width: 700px;
+}
+.inschrijving{
+	display: flex;
+	justify-content: center;
+}
+input#bday,textarea{
+	width: 189px;
+}
+input.knop{
+	background: #4654A1;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+
+input#fname, input#lname, input#email, input#bday, input#tel, input#subject, textarea,input#phone{
+	border: none;
+	border-bottom: 1px solid #4654A1;
+	padding: 10px;
+	margin: 10px;
+	width: 250px;
+}
+
+input#fname:focus, input#lname:focus, input#email:focus, input#bday:focus, input#tel:focus, input#subject:focus, textarea:focus,input#phone:focus{
+	outline: none;
+}
